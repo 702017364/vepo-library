@@ -44,7 +44,7 @@ const timeAssociatObject = value => {
  * 格式化时间
  * @param {Date} date 进行格式的时间
  * @param {String} [specif=PATTERM_SPECIF] 将被格式的字符串
- * @return {String} 返回格式化的字符串
+ * @return {String} 返回格式化后字符串
  */
 export default (date, specif = PATTERM_SPECIF) => {
   const value = timeAssociatObject(date);
