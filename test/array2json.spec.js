@@ -1,7 +1,7 @@
 import array2json from '../src/array2json';
 
-describe('array2json function unit test', () => {
-  it('Is it equal? ', () => {
+describe('array2json方法测试：', () => {
+  it('值相等', () => {
     const inputValue = [
       {
         id: '1',
