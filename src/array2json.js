@@ -6,6 +6,7 @@ import noop from './noop.js';
  * @param {Array} data 数据
  * @param {String} [uuid='id'] 设置哪个属性值为key
  * @param {Function} [filter=noop] 设置过滤
+ * @return {Object} 返回值
  */
 export default (data, uuid = 'id', filter = noop) => {
   const json = {};
