@@ -7,7 +7,7 @@ import noop from './noop.js';
  * @param {String} [uuid='id'] 设置哪个属性值为key
  * @param {Function} [filter=noop] 设置过滤
  */
-export default array2json = (data, uuid = 'id', filter = noop) => {
+export default (data, uuid = 'id', filter = noop) => {
   const json = {};
   const is_fun = typeof filter == 'function' && filter !== noop;
   data.forEach((item, index) => {
