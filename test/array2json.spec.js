@@ -1,7 +1,7 @@
 import array2json from '../src/array2json';
 
 describe('array2json方法测试：', () => {
-  it('值相等', () => {
+  it('检测返回值是否为预估结果', () => {
     const inputValue = [
       {
         id: '1',
