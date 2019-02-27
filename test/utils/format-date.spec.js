@@ -1,4 +1,4 @@
-import formatDate from '../src/format-date';
+import formatDate from '@utils/format-date';
 
 describe('formatDate方法测试：', () => {
   it('将时间格式成输入字符串代表的格式', () => {

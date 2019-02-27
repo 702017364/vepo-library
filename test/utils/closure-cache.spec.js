@@ -1,4 +1,4 @@
-import closureCache from '../src/closure-cache';
+import closureCache from '@utils/closure-cache';
 
 describe('closure-cache方法测试：', () => {
   it('多次调用返回函数，count只增加了一次', () => {

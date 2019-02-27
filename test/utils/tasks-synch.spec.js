@@ -1,4 +1,4 @@
-import tasksSynch from '../src/tasks-synch';
+import tasksSynch from '@utils/tasks-synch';
 
 describe('tasksSynch方法测试：', () => {
   it('多任务依序同步进行', done => {

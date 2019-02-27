@@ -1,4 +1,4 @@
-import noop from '../src/noop.js';
+import noop from './noop.js';
 
 /** 
  * 多任务依序同步进行
