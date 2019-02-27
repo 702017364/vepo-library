@@ -1,5 +1,6 @@
 // Karma configuration
 // Generated on Mon Feb 25 2019 11:37:12 GMT+0800 (GMT+08:00)
+const path = require('path');
 
 module.exports = function(config) {
   config.set({
@@ -52,6 +53,11 @@ module.exports = function(config) {
             ],
           },
         ],
+      },
+      resolve: {
+        alias: {
+          '@utils': path.resolve(__dirname, 'src/utils/'),
+        },
       },
     },
 
