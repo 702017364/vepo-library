@@ -2,7 +2,7 @@
   "name": "@vope/library",
   "version": "1.0.0",
   "description": "个人业务库",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "karma start"
   },
