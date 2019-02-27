@@ -5,7 +5,7 @@ import noop from './noop.js';
  * 
  * @param {Array} data 数据列表
  * @param {String} [uuid='id'] 设置哪个属性值为key
- * @param {Function} [filter=noop] 过滤，当为函数且不为noop时，如果值为false则过滤掉数据项
+ * @param {Function} [filter=noop] 过滤，当为函数且不为noop时，返回值为false则过滤掉数据项
  * @return {Object} 返回值
  */
 export default (data, uuid = 'id', filter = noop) => {
