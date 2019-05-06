@@ -1,14 +1,11 @@
-import noop from './utils/noop.js';
-import array2json from './utils/array2json.js';
-import closureCache from './utils/closure-cache.js';
-import formatDate from './utils/format-date.js';
-import tasksSynch from './utils/tasks-synch.js';
+export const version = '1.0.0';
 
-export default {
-  version: '1.0.0',
-  array2json,
-  closureCache,
-  formatDate,
-  noop,
-  tasksSynch,
-};
+export { default as noop } from './utils/noop.js';
+
+export { default as array2json } from './utils/array2json.js';
+
+export { default as closureCache } from './utils/closure-cache.js';
+
+export { default as formatDate } from './utils/format-date.js';
+
+export { default as formatDate } from './utils/tasks-synch.js';
