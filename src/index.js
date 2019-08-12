@@ -1,4 +1,4 @@
-export const version = '1.0.0';
+export const version = '1.0.1';
 
 export { default as noop } from './utils/noop.js';
 
@@ -8,4 +8,4 @@ export { default as closureCache } from './utils/closure-cache.js';
 
 export { default as formatDate } from './utils/format-date.js';
 
-export { default as formatDate } from './utils/tasks-synch.js';
+export { default as tasksSynch } from './utils/tasks-synch.js';
